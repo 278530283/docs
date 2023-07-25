@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-07-25T08:31:27.454Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="UTQWtzy2vGNPoIwbdOle" version="21.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-25T08:33:29.282Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="7PZA5yeQYMZFBt7TOu2B" version="21.6.5" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="4601" dy="1221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="4090" dy="945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -195,7 +195,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_nAoevxDpID-ewK5zdQM-5" value="&lt;div style=&quot;-webkit-font-smoothing: antialiased; resize: none; outline: 0px; font-size: 13px; color: rgb(50, 50, 50); font-family: 微软雅黑;&quot;&gt;&lt;div style=&quot;-webkit-font-smoothing: antialiased; resize: none; outline: 0px;&quot;&gt;stimulatePattern==简单模式?&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-98.5" y="1060" width="184.5" height="96.25" as="geometry" />
+          <mxGeometry x="-98.5" y="1056.8700000000001" width="184.5" height="96.25" as="geometry" />
         </mxCell>
         <mxCell id="_nAoevxDpID-ewK5zdQM-94" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_nAoevxDpID-ewK5zdQM-13" target="LHhLYOMo6sITwB6gVy6j-6">
           <mxGeometry relative="1" as="geometry" />
@@ -245,7 +245,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_nAoevxDpID-ewK5zdQM-29" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; font-family: 微软雅黑; font-size: inherit;&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;芯片控制&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;:&lt;/span&gt;&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;只用到Unit&lt;/span&gt;&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;groupCount=1&lt;/span&gt;&lt;br&gt;&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;groupInterval=1&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#60a917;strokeColor=#2D7600;fontColor=#ffffff;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-460" y="1068.12" width="130" height="80" as="geometry" />
+          <mxGeometry x="-460" y="1065.12" width="130" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_nAoevxDpID-ewK5zdQM-48" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_nAoevxDpID-ewK5zdQM-40" target="_nAoevxDpID-ewK5zdQM-47">
           <mxGeometry relative="1" as="geometry" />
