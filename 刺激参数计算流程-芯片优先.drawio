@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T09:30:25.858Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CeKiA8G4m7wwWMcjlOuL" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T09:35:24.359Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="81h2TuChT6ovU_3NBkIt" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3499" dy="589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3137" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -505,8 +505,8 @@
         <mxCell id="f-pMe1r2bcdtUwyQ-utC-0" value="高频,刺激组时间长的情况是否考虑支持提示不支持." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="586.5" y="1650" width="130" height="78.05" as="geometry" />
         </mxCell>
-        <mxCell id="f-pMe1r2bcdtUwyQ-utC-5" value="1.时钟TS建议动态计算&lt;br&gt;2.芯片无限情况下,尽量让MCU进行停止.&lt;br&gt;3.时钟后期可以考虑按通道进行控制&lt;br&gt;4.高频场景下刺激组时间过长导致芯片不支持的场景,是否考虑直接提示拒绝用户.&lt;br&gt;5.UI上分场景对时间进行精准的控制." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.4166666666666667;fillColor=#ffe6cc;strokeColor=#d61500;labelBackgroundColor=none;fontColor=#f80d0d;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-248.5" y="410" width="258.5" height="160" as="geometry" />
+        <mxCell id="f-pMe1r2bcdtUwyQ-utC-5" value="时钟按通道进行控制(暂时不支持)&lt;br&gt;&lt;br&gt;1.时钟TS建议动态计算&lt;br&gt;2.芯片无限情况下,尽量让MCU进行停止.&lt;br&gt;3.高频场景下刺激组时间过长导致芯片不支持的场景,是否考虑直接提示拒绝用户.&lt;br&gt;4.UI上分场景对时间进行精准的控制." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.4166666666666667;fillColor=#ffe6cc;strokeColor=#d61500;labelBackgroundColor=none;fontColor=#f80d0d;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-358.5" y="390" width="478.5" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
