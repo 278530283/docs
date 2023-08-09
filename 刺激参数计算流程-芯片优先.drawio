@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T09:38:12.803Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="s374t1410n2xIRIW_fft" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T10:25:14.201Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="lS3bT4jFMNOI-PDc_7Wy" version="21.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="3296" dy="486" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="3433" dy="555" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -452,8 +452,8 @@
         <mxCell id="_nAoevxDpID-ewK5zdQM-159" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_nAoevxDpID-ewK5zdQM-141" target="LHhLYOMo6sITwB6gVy6j-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_nAoevxDpID-ewK5zdQM-141" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: inherit;&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;MCU控制:&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;芯片(Group补充Unit)&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;计算芯片groupCount&lt;/span&gt;&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;groupInterval=1&lt;/span&gt;&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;计算MCU控制参数&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="280.92999999999995" y="1761.88" width="151.13" height="85" as="geometry" />
+        <mxCell id="_nAoevxDpID-ewK5zdQM-141" value="&lt;span style=&quot;-webkit-font-smoothing: antialiased; color: rgb(50, 50, 50); font-family: 微软雅黑; font-size: inherit;&quot;&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;MCU控制:&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;芯片产生一个Group&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;(Group补充Unit)&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;计算芯片groupCount&lt;/span&gt;&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;groupInterval=1&lt;/span&gt;&lt;/div&gt;&lt;div data-en-clipboard=&quot;true&quot; data-pm-slice=&quot;1 1 []&quot;&gt;&lt;span style=&quot;font-size: inherit; background-color: initial;&quot;&gt;计算MCU控制参数&lt;/span&gt;&lt;/div&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;strokeWidth=2;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="276.96" y="1762" width="159.07" height="98.12" as="geometry" />
         </mxCell>
         <mxCell id="_nAoevxDpID-ewK5zdQM-144" value="group间隔满足不了&lt;br&gt;芯片只能产生1个Group" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="102.56" y="1650" width="130" height="78.05" as="geometry" />
@@ -502,11 +502,14 @@
         <mxCell id="_nAoevxDpID-ewK5zdQM-158" value="Unit间隔太大&lt;br&gt;慢速模式都不够&lt;br&gt;考虑MCU来控制&lt;br&gt;一次产生一个Unit" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="2010" y="1090" width="110" height="105" as="geometry" />
         </mxCell>
-        <mxCell id="f-pMe1r2bcdtUwyQ-utC-0" value="高频,刺激组时间长的情况是否考虑支持提示不支持." style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="586.5" y="1650" width="130" height="78.05" as="geometry" />
+        <mxCell id="f-pMe1r2bcdtUwyQ-utC-0" value="高频,刺激组时间长的情况是否考虑支持提示不支持.&lt;br&gt;芯片无限,一次产生一个Group,&lt;br&gt;MCU停止" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="614.87" y="1630" width="195.13" height="100" as="geometry" />
         </mxCell>
         <mxCell id="f-pMe1r2bcdtUwyQ-utC-5" value="时钟按通道进行控制(暂时不支持)&lt;br&gt;&lt;br&gt;1.时钟TS建议动态计算&lt;br&gt;2.芯片无限情况下,尽量让MCU进行停止.&lt;br&gt;3.高频场景下刺激组时间过长导致芯片不支持的场景,是否考虑直接提示拒绝.&lt;br&gt;4.UI上分场景对时间进行精准的控制." style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;size=0.4166666666666667;fillColor=#ffe6cc;strokeColor=#d61500;labelBackgroundColor=none;fontColor=#f80d0d;align=left;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-358.5" y="390" width="478.5" height="200" as="geometry" />
+          <mxGeometry x="-358.5" y="390" width="418.5" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="f-pMe1r2bcdtUwyQ-utC-7" value="芯片无限&lt;br&gt;MCU停止" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1730" y="1540.07" width="123.37" height="87.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
