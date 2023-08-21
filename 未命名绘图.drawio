@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-21T03:53:52.694Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="X4n1gtKrADc7PH-BCpM0" version="21.6.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-21T04:31:56.927Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="zzQQlioU7QnOdP2e2hrd" version="21.6.8" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2262" dy="1221" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1262" dy="1850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -8,31 +8,32 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-1" value="开始" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="40" y="100" width="100" height="60" as="geometry" />
+          <mxGeometry x="40" y="61.25" width="100" height="52.5" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-2" target="_rE9rb5VhAgf5izG4zQs-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_rE9rb5VhAgf5izG4zQs-2" value="输入:&lt;br&gt;系数: A&lt;br&gt;系数: B&lt;br&gt;乘积数:C1,C2...Cn&lt;br&gt;&lt;br&gt;求解问题:&lt;br&gt;求解一个1&amp;lt;=x&amp;lt;=A,&lt;br&gt;以及一组y1,y2...yn,使得&lt;br&gt;Sum(Ci-xyi)最小,其中i=1,2...n&lt;br&gt;&lt;br&gt;输出:&lt;br&gt;正整数:x, 1&amp;lt;=x&amp;lt;=A&lt;br&gt;正整数:y1,y2...yn, 1&amp;lt;=yi&amp;lt;=B,其中i=1,2...n" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="240" y="30" width="300" height="200" as="geometry" />
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-2" value="输入:&lt;br&gt;系数: A,正整数&lt;br&gt;系数: B,正整数&lt;br&gt;乘积数:C1,C2...Cn,Ci为正整数&lt;br&gt;&lt;br&gt;求解问题:&lt;br&gt;求解一个x,&lt;br&gt;以及一组y1,y2...yn,使得&lt;br&gt;Sum(Ci-xyi)最小, i=1,2...n.&lt;br&gt;需满足条件:x为正整数,1&amp;lt;=x&amp;lt;=A&lt;br&gt;yi为正整数,1&amp;lt;=yi&amp;lt;=B&lt;br&gt;&lt;br&gt;输出:&lt;br&gt;x及y1,y2...yn" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="249.5" y="-20" width="281" height="215" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-4" target="_rE9rb5VhAgf5izG4zQs-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-4" value="计算Cmax = max(C1,C2...Cn)&lt;br&gt;计算n=count(C1,C2...Cn)&lt;br&gt;计算Xmin=&amp;nbsp;⌊Cmax/255⌋&amp;nbsp;&lt;br&gt;设置损失率Loss_max=0.1" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="260" width="240" height="70" as="geometry" />
+          <mxGeometry x="265" y="240" width="250" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-6" target="_rE9rb5VhAgf5izG4zQs-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-6" value="设置Ai=Xmin&lt;br&gt;X_optimal=0&lt;br&gt;Y_optimal=[]&lt;br&gt;Sum_optimal=Cmax*n" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="270" y="370" width="240" height="60" as="geometry" />
+          <mxGeometry x="268.13" y="360" width="243.75" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-7" target="_rE9rb5VhAgf5izG4zQs-18">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="60" y="502" />
-              <mxPoint x="60" y="1110" />
+              <mxPoint x="60" y="503" />
+              <mxPoint x="60" y="1310" />
+              <mxPoint x="330" y="1310" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -52,10 +53,10 @@
         <mxCell id="_rE9rb5VhAgf5izG4zQs-7" value="Ai&amp;lt;=A" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="320" y="470" width="140" height="65" as="geometry" />
         </mxCell>
-        <mxCell id="_rE9rb5VhAgf5izG4zQs-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-9" target="_rE9rb5VhAgf5izG4zQs-11">
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-9" target="_rE9rb5VhAgf5izG4zQs-31">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="_rE9rb5VhAgf5izG4zQs-9" value="设置Sum_temp=0&lt;br&gt;分别对C1,C2...Cn进行计算:&lt;br&gt;yi=⌊Ci/Ai⌋&lt;br&gt;计算损失率:loss_i=1-Ai*yi/Ci&lt;br&gt;Sum_temp+=Ci-Ai*yi" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-9" value="Sum_temp=0&lt;br&gt;i=0" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="270" y="580" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-11" target="_rE9rb5VhAgf5izG4zQs-13">
@@ -66,49 +67,78 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_rE9rb5VhAgf5izG4zQs-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-11" target="_rE9rb5VhAgf5izG4zQs-15">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="307.5" y="729.99" as="sourcePoint" />
-            <mxPoint x="330" y="999.99" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="190" y="729.99" />
-              <mxPoint x="190" y="999.99" />
+              <mxPoint x="180" y="958" />
+              <mxPoint x="180" y="1213" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="_rE9rb5VhAgf5izG4zQs-28" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_rE9rb5VhAgf5izG4zQs-27">
-          <mxGeometry x="-0.0449" y="1" relative="1" as="geometry">
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-43" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_rE9rb5VhAgf5izG4zQs-29">
+          <mxGeometry x="-0.7898" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-11" value="Sum_temp&amp;lt;Sum_optimal&lt;br&gt;且&lt;br&gt;all(loss_i)&amp;lt;=Loss_max" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="273.75" y="690" width="232.5" height="110" as="geometry" />
+          <mxGeometry x="273.75" y="903" width="232.5" height="110" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-13" target="_rE9rb5VhAgf5izG4zQs-15">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-13" value="设置:&lt;br&gt;X_optimal=Ai&lt;br&gt;Y_optimal=[y1,y2...yn]&lt;br&gt;Sum_optimal=Sum_temp" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="295" y="850" width="190" height="70" as="geometry" />
+          <mxGeometry x="295" y="1063" width="190" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="_rE9rb5VhAgf5izG4zQs-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-15" target="_rE9rb5VhAgf5izG4zQs-7">
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-15" target="_rE9rb5VhAgf5izG4zQs-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="660" y="1015" />
-              <mxPoint x="660" y="502" />
+              <mxPoint x="740" y="1213" />
+              <mxPoint x="740" y="503" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-15" value="Ai++" style="whiteSpace=wrap;html=1;rounded=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="970" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="1183" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-18" target="_rE9rb5VhAgf5izG4zQs-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-18" value="返回 X_optimal,Y_optimal" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="1080" width="120" height="60" as="geometry" />
+          <mxGeometry x="330" y="1281" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_rE9rb5VhAgf5izG4zQs-23" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="630" y="1080" width="100" height="60" as="geometry" />
+          <mxGeometry x="630" y="1281" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-31" target="_rE9rb5VhAgf5izG4zQs-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="710" />
+              <mxPoint x="180" y="880" />
+              <mxPoint x="390" y="880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-42" value="False" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_rE9rb5VhAgf5izG4zQs-35">
+          <mxGeometry x="-0.6986" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-31" target="_rE9rb5VhAgf5izG4zQs-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-38" value="True" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="_rE9rb5VhAgf5izG4zQs-37">
+          <mxGeometry x="-0.2926" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-31" value="i&amp;lt;=n" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="680" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="_rE9rb5VhAgf5izG4zQs-32" target="_rE9rb5VhAgf5izG4zQs-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_rE9rb5VhAgf5izG4zQs-32" value="计算yi=⌊Ci/Ai⌋&lt;br&gt;损失率:loss_i=1-Ai*yi/Ci&lt;br&gt;Sum_temp+=Ci-Ai*yi&lt;br&gt;i++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="270" y="780" width="240" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
